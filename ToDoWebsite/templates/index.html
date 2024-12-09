@@ -1,0 +1,33 @@
+{%extends "layout.html"%}
+
+{%block body%}
+<!-- CREATE EISENHOWER MATRIX -->
+<div id="eisenhower-matrix-add" class="section-main-menu">
+    <br>
+    <div class="container-fluid eisenhower-matrix">
+        <div class="row">
+            <div id="todo-do-first" class="col col-todo">
+                <p class="matrix-heading"><a>DO IT NOW</a></p>
+            </div>
+            <div id="todo-schedule" class="col col-todo">
+                <p class="matrix-heading"><a>SCHEDULE IT</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div id="todo-delegate" class="col col-todo">
+                <p class="matrix-heading"><a>DELEGATE IT</a></p>
+            </div>
+            <div id="todo-delete" class="col col-todo">
+                <p class="matrix-heading"><a>DELETE IT</a></p>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="eisenhower-matrix-list-todos" class="section-main-menu">
+    <div class="container-fluid">
+    Bu sayfa list todo sayfasıdır.
+    </div>
+</div>
+{%endblock body%}
+

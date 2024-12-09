@@ -1,0 +1,100 @@
+.navbar-color {
+    background-color: #004225!important;
+    padding: 1rem;
+}
+
+.link-in-page{
+    color:darkslategray;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#body-color{
+    background-color: #DED0B6 !important;
+    opacity: 1px;
+}
+
+.content-margin{
+    margin-top:150px;
+}
+
+
+hr{
+border-color: #004225;
+border-width: 2px;
+border-style: groove;
+opacity: 0.5;
+margin: 0px;
+padding: 0px;
+}
+
+.option-matrix{
+    padding: 5px;
+    margin: 10px;
+    font-size:15px;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+/*hide the section*/
+.section-main-menu{
+    display: none;
+}
+/*show the section*/
+.section-main-menu.active{
+    display: block;
+}
+/*eisenhower matrix grid structure*/
+.col-todo{
+    width: 70px;
+    height: 170px;
+
+    border-radius: 50px;
+    
+    margin: 10px;
+    padding: 5px;
+}
+
+.eisenhower-matrix{
+    width:1000px;
+    height: 500px;
+    margin:auto;
+}
+
+#todo-do-first{
+    background-color:#24543f;
+}
+#todo-schedule{
+    background-color:#2d6a4f;
+}
+#todo-delegate{
+    background-color: #427860;
+}
+#todo-delete{
+    background-color: #6c9683;
+}
+
+.matrix-heading{
+    text-align: center;
+    padding-top: 13%;
+    font-size: 30px;
+    font-weight: bolder;
+    color:beige;
+}
+
+a.nav-link.active{
+    color:white;
+    justify-self:center;
+    margin-bottom: auto;
+}
+
+div.container-fluid{
+    justify-self:center;
+}
+
+.navbar{
+    height: 70px;
+}
